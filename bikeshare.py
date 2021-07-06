@@ -32,7 +32,7 @@ def get_filters(month_comparison, day_comparison):
     # get user input for month (all, january, february, ... , june)
     while month not in month_comparison:
         month = input("Enter month name please (January, February, March, April, May, June or all): ").lower()
-        print("month of choice: " + month)
+        print('month of choice: {}'.format(month))
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while day not in day_comparison:
