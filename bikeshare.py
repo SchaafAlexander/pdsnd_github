@@ -191,6 +191,7 @@ def raw_data(df,index):
     print('-'*40)
 
 def main():
+    """Main function. Where all the other functions get triggered."""
     while True:
         city, month, day = get_filters(month_comparison, day_comparison)
         df = load_data(city, month, day, month_comparison)
