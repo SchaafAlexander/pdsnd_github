@@ -37,7 +37,7 @@ def get_filters(month_comparison, day_comparison):
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while day not in day_comparison:
         day = input("Enter day of interest please please (Monday, Tuesday, ... or all): ").lower()
-        print("Day of choice: " + day)
+        print('Day of choice: {}'.format(day))
 
     print('-'*40)
     return city, month, day
