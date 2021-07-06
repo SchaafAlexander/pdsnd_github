@@ -10,7 +10,8 @@ Chicago, New York City, and Washington.
 Possibility to select city, dates and see statistics.
 
 ### Files used
-Include the files used
+Bikeshare.py is used for execution.
+And three csv files are needed as input data.
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
