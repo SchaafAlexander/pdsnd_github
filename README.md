@@ -14,5 +14,6 @@ Bikeshare.py is used for execution.
 And three csv files are needed as input data.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity Course.
+Template from: https://github.com/udacity/pdsnd_github
 
