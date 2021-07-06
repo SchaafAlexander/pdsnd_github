@@ -27,17 +27,17 @@ def get_filters(month_comparison, day_comparison):
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while city not in CITY_DATA.keys():
         city = input("Choose your city of interest (Chicago, New York City or Washington): ").lower()
-        print("City of choice: " + city)
+        print('City of choice: {}'.format(city))
         
     # get user input for month (all, january, february, ... , june)
     while month not in month_comparison:
         month = input("Enter month name please (January, February, March, April, May, June or all): ").lower()
-        print("month of choice: " + month)
+        print('month of choice: {}'.format(month))
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while day not in day_comparison:
         day = input("Enter day of interest please please (Monday, Tuesday, ... or all): ").lower()
-        print("Day of choice: " + day)
+        print('Day of choice: {}'.format(day))
 
     print('-'*40)
     return city, month, day
